@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="vitalii, cv,resume">
+    <meta name="description" content="Это сайт резюме Виталия Данильченко">
+    <link rel="stylesheet" href="styles.css">
+    <title>vitalii resume</title>
+</head>
+<body>
+    <div class="container">
+        <div class="info">
+            <img src="avatar.jpg" alt="здесь моя фотография" class="avatar">
+            <div class="info-text">
+                <h1>Виталия Данильченко</h1>
+                <p>Я работаю <strong> рентгенолаборантом </strong> в городской больнице </p>
+                <p>Мне нравится заниматься <em> фокусами и кардистри </em>, а также я увлекся тематикой html и css</p>
+
+                <h4>Список социальных сетей</h4>
+                <a href="https://vk.com/danilchenko1998" target="_blank">Я вконтакте </a>
+                |
+                <a href="https://t.me/+0pjcqNx2yiQ3MTI6" target="_blank"> я в telegram</a>
+                |
+                <a href="https://www.youtube.com/channel/UCS5tpifzooKuHB-8ng8WZ3Q" target="_blank"> мой канал на Youtube</a>
+            </div>
+     </div>
+     <div class="card bg-red">
+            <h2>Мои хобби</h2>
+            <ol class="list">
+                <li>Фокусы</li>
+                <li>Кардистри</li>
+                <li>Просмотр фильмов</li>
+            </ol>
+        </div>
+        
+        <div class="card bg-yellow">
+            <h2>Опыт работ </h2>
+            <table class="table">
+                <!-- <thead>
+                    <tr>
+                     <th>Название</th>
+                     <th>Должность</th>
+                     <th>Год</th>
+                    </tr>
+                </thead> -->
+                <tbody>
+                    <tr>
+                     <td>Саткинская ЦРБ</td>
+                     <td> мед.Брат</td>
+                     <td> 2020-2021</td>
+                    </tr>
+                    <tr>
+                     <td>Саткинская ЦРБ</td>
+                     <td> рентгенолаборант</td>
+                     <td> 2021-по сей день</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        
+        <form action="#" class="form">
+            <h2>Связаться со мной</h2>                      
+
+            <div class="form-row">
+
+                <div class="form-group">
+                    <label for="name">Ваше имя</label>
+                    <input type="text" id="name"
+                    placeholder="Введите имя">
+                    
+                </div>
+                <div class="form-group">
+                    <label for="email"> Ваш Email</label>
+                    <input type="email" id="email"
+                    placeholder="Введите Email">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="message">Ваше сообщение</label>                
+                <textarea  id="message" cols="20" rows="5"
+                placeholder="Введите сообщение..."></textarea>
+            </div>
+            <input class="btn" type="submit" value="Отправить">
+        </form>
+    </div>
+</body>
+</html>
